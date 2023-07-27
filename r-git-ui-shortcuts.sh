@@ -9,10 +9,10 @@ usageAndBail() {
     cat <<EOF
 Usage:
     stgit [service alias] [flags]
-    Ex 1: rgit bc                     -> Opens service repo
-    Ex 2: rgit bc -b master           -> Opens service repo in master branch
-    Ex 3: rgit bc -c myBranch         -> Opens service repo comparing your branch with the repo default/main branch
-    Ex 4: rgit bc -c master myBranch  -> Opens service repo comparing 2 branches
+    Ex 1: rgit awsc                     -> Opens service repo
+    Ex 2: rgit awsc -b master           -> Opens service repo in master branch
+    Ex 3: rgit awsc -c myBranch         -> Opens service repo comparing your branch with the repo default/main branch
+    Ex 4: rgit awsc -c master myBranch  -> Opens service repo comparing 2 branches
     PS -> Not providing service name, opens Git Root URL
 
 Flags
@@ -20,13 +20,12 @@ Flags
     -c | --compare    Open comparing your branch, you can open comparing your branch to the default repo branch OR compare 2 branches just need to pass both as parameters
     -b | --branch     Open in a specific branch, just need to pass both a parameter
 
-Supported services and is aliases:
-    Billing Core:                       [bc  | billing-core]
-    [BC Plugin] Warranty App            [wap  | warranty-app-java-plugin]
-    [BC Plugin] Adyen                   [ap   | adyen-plugin]
-    [BC Plugin] Product Catalog         [pcp  | cp | product-catalog-plugin]
-    [BC Plugin] Account Updater         [aup  | acup | account-updater-plugin]
-    [BC Plugin] Initial Payment         [ipp  | initial-payment-plugin]
+Supported repos and its aliases:
+    Billing Core:              [awsc | aws-cert]
+    Coding Challenges          [lc   | cl | coding-challenges]
+    Study Concepts             [sc   | study-concepts]
+    Personal Notes             [pcp  | psn  | personal-notes]
+    Java 11 Cert Notes         [jc11  | java11 | java-cert]
 EOF
 
    exit 1;
