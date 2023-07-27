@@ -1,0 +1,12 @@
+# eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# idea
+.idea/
+*.iml
+
+# osx
+.DS_Store
