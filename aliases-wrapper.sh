@@ -5,6 +5,6 @@
 #
 #
 
-actual_dir="$(dirname "$0")"
+actual_directory="$(dirname "$0")"
 
 alias rgit='sh ${actual_dir}/r-git-ui-shortcuts.sh'
