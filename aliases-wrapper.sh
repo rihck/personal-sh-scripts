@@ -7,4 +7,4 @@
 
 actual_directory="$(dirname "$0")"
 
-alias rgit='sh ${actual_dir}/r-git-ui-shortcuts.sh'
+alias rgit='sh ${actual_directory}/r-git-ui-shortcuts.sh'
