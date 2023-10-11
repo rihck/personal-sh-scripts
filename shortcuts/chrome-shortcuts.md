@@ -1,0 +1,4 @@
+- `Command`+`L`: Jump to adress bar
+- `Command`+`1-8`: Jump to equivalent Tab
+- `Command`+`Option`+`Left/Right Arrow`: Navigate between Tabs
+- 
